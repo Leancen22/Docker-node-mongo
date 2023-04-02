@@ -2,7 +2,6 @@
 
 docker build -t hellonode .
 docker-compose build
-
 docker-compose up
 
 # Sin db:
