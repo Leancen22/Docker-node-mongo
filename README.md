@@ -1,16 +1,20 @@
-Para levantar con bd:
+# Para levantar con bd:
 
 docker build -t hellonode .
 docker-compose build
+
 docker-compose up
 
-Sin db:
+# Sin db:
 
 docker build -t hellonode .
+
 docker images
+
 docker run -p 4000:3000 hellonode
 
-Contenedor:
+# Contenedor:
 
 docker ps
+
 docker exec -it exampleapp bash
